@@ -4,3 +4,5 @@
 *.so
 *.lua
 /src/
+/coding_standards.md
+/Makefile.am
