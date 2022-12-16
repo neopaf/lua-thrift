@@ -9,7 +9,7 @@ luarocks build
 luarocks pack thrift
 ```
 
-[Result](thrift-0.17.0-1.all.rock)
+[Result](thrift-0.17.0-2.all.rock)
 
 ## Upload
 
@@ -18,5 +18,5 @@ Somewhere
 ## Installation
 
 ```bash
-luarocks install https://somewhere/thrift-0.17.0-1.all.rock
+luarocks install https://somewhere/thrift-0.17.0-2.all.rock
 ```
