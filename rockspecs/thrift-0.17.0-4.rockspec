@@ -1,5 +1,5 @@
 package = "thrift"
-version = "0.17.0-3"
+version = "0.17.0-4"
 source = {
   url = "git://github.com/apache/thrift.git",
   tag = "v0.17.0",
@@ -35,7 +35,7 @@ build = {
 
 	libluasocket = { "src/luasocket.c", "src/usocket.c" },
 	liblualongnumber = { "src/lualongnumber.c", "src/longnumberutils.c" },
-	libluabpack = { "src/luabpack.c" },
+	libluabpack = { "src/luabpack.c", "src/longnumberutils.c" },
 	libluabitwise = { "src/luabitwise.c" },
   }
 }
