@@ -2,3 +2,5 @@
 .idea
 /thrift/
 *.so
+*.lua
+/src/
