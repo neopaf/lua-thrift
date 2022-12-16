@@ -2,17 +2,21 @@
 
 LuaRocks packaging of [Apache Thrift](https://thrift.apache.org).
 
+## Building
+
+```bash
+luarocks build
+luarocks pack thrift
+```
+
+[Result](thrift-0.17.0-1.all.rock)
+
+## Upload
+
+Somewhere
+
 ## Installation
 
 ```bash
-$ luarocks install thrift
-```
-
-## Testing
-
-```
-$ luarocks install busted
-$ busted -v
-●●
-2 successes / 0 failures / 0 errors / 0 pending : 0.010238 seconds
+luarocks install https://somewhere/thrift-0.17.0-1.all.rock
 ```
