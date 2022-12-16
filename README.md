@@ -13,7 +13,7 @@ Can't figure out how to prevent pack from storing ALL of what's in git (put only
 luarocks pack rockspecs/thrift-0.17.0-4.rockspec
 ```
 
-[Result](thrift-0.17.0-3.src.rock)
+[Result](thrift-0.17.0-4.src.rock)
 
 ## Upload
 
