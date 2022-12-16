@@ -10,7 +10,7 @@ Can't figure out how to prevent pack from storing ALL of what's in git (put only
 
 ```bash
 #folder structure is different, do not try #luarocks build
-luarocks pack rockspecs/thrift-0.17.0-3.rockspec
+luarocks pack rockspecs/thrift-0.17.0-4.rockspec
 ```
 
 [Result](thrift-0.17.0-3.src.rock)
@@ -22,5 +22,5 @@ Somewhere
 ## Installation
 
 ```bash
-luarocks install https://somewhere/thrift-0.17.0-3.src.rock
+luarocks install https://somewhere/thrift-0.17.0-4.src.rock
 ```
