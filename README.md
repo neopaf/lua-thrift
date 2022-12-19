@@ -8,12 +8,27 @@ Can't figure out how to prevent pack from storing ALL of what's in git (put only
 
 ## Building
 
+### src rock
+
 ```bash
-#folder structure is different, do not try #luarocks build
 luarocks pack rockspecs/thrift-0.17.0-4.rockspec
 ```
 
 [Result](thrift-0.17.0-4.src.rock)
+
+### binary rock
+
+```bash
+git clone github.com/apache/thrift.git
+cd thrift/lib/lua
+git checkout v0.17.0
+cp -rp * ../../..
+
+luarocks build
+luarocks pack thrift
+```
+
+[Result Mac](thrift-0.17.0-4.macosx-x86_64.rock)
 
 ## Upload
 
